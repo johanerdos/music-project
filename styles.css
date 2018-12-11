@@ -1,0 +1,209 @@
+.header {
+  overflow: hidden;
+  background: #A9A9A9;
+  padding: 20px 10px;
+  max-height: 100%;
+  
+  
+  
+}
+
+/* Style the header links */
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 15px; 
+  line-height: 25px;
+  border-radius: 4px;
+  
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* Change the background color on mouse-over */
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+  
+}
+
+/* Style the active/current link*/
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+/* Float the link section to the right */
+.header-right {
+  float: right;
+}
+
+.login-nav{
+    float: right;
+}
+
+.logo {
+    float:left;
+}
+
+.alt1 {
+    margin-left: 10%
+}
+
+.alt2 {
+    margin-left: 10%;
+}
+
+.alt3 {
+    margin-left: 10%;
+}
+
+.signUp-form {
+    width: 400px;
+    margin: 0 auto;
+    padding-top: 30px;
+    float: right;
+    
+}
+
+.signUp-form input{
+    width: 90%;
+    height: 40px;
+    padding: 0px 5%;
+    margin-bottom: 4px;
+    border: none;
+    background-color: #ddd;
+    font-family: arial;
+    font-size: 16px;
+    color: #111;
+    line-height: 40px;
+}
+
+.signUp-form button{
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    height: 40px;
+    border: none;
+    background-color: white;
+    font-family: arial;
+    font-size: 16px;
+    color: black;
+    margin-bottom: 25px;
+}
+
+.signUp-form button:hover{
+    cursor:pointer;
+    background-color: #ddd;
+}
+
+.reco-form {
+    width: 400px;
+    margin: 0 auto;
+    margin-left: 170%;
+    
+}
+
+.reco-form input {
+    width: 90%;
+    height: 40px;
+    padding: 0px 5%;
+    margin-bottom: 4px;
+    border: none;
+    background-color: #ddd;
+    font-family: arial;
+    font-size: 16px;
+    color: #111;
+    line-height: 40px;
+}
+
+.reco-form button {
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    height: 40px;
+    border: none;
+    background-color: white;
+    font-family: arial;
+    font-size: 16px;
+    color: black;
+    margin-bottom: 25px;
+}
+
+.reco-form button:hover{
+    cursor:pointer;
+    background-color: #ddd;
+}
+
+
+.dropbtn {
+  background-color: #A9A9A9;
+  color: black;
+  padding: 16px;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+  margin-left: 100%;
+  font-family: Lucida Grande;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #ddd;
+  border-radius: 4px;
+}
+
+#myInput {
+  border-box: box-sizing;
+  background-image: url('https://cdn1.iconfinder.com/data/icons/hawcons/32/698627-icon-111-search-512.png');
+  background-position: 14px 12px;
+  background-repeat: no-repeat;
+  font-size: 16px;
+  padding: 14px 20px 12px 45px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+}
+
+#myInput:focus {
+    outline: 3px solid #ddd;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f6f6f6;
+  min-width: 230px;
+  overflow: auto;
+  border: 1px solid #ddd;
+  z-index: 1;
+  
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  max-height: 100%;
+}
+
+.dropdown a:hover {
+    background-color: #ddd;
+}
+
+.show {
+    display: block;
+}
+
+
