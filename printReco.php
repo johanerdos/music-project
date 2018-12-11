@@ -51,10 +51,8 @@ $sqlReco = "SELECT * FROM recommendations ORDER BY likes DESC";
                         </div>
                         
                         
-                        <div class='timeStamp' style='padding-left: 15px;'>message created on: $timeStamp</div>
-                        <div class='likeButton'>
-                            <div class='likeButton noSelection'>
-                                
+                        <div class='timeStamp' style='padding-left: 15px;'>post created: $timeStamp</div>
+                        
                                 
                                 <form action='likes.php' method='POST'>
                                     <input type='submit' value='$postID' name='like'/>

@@ -17,5 +17,3 @@ if($_POST['like']) {
     
 }
 ?>
-
-https://github.com/johanerdos/music-project.git

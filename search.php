@@ -56,7 +56,7 @@ if($resultCheckSearch < 1){
                             <p>Number of Likes: </p>
                             <p class='message' style='font-size: 25px;'>$likesSearch</p>
                         </div>
-                        <div class='timeStamp' style='padding-left: 15px;'>message created on: $timeStampSearch</div>
+                        <div class='timeStamp' style='padding-left: 15px;'>post created: $timeStampSearch</div>
                         
                             <form action='likes.php' method='POST'>
                                     <input type='submit' value='$postIDSearch' name='like'/>
